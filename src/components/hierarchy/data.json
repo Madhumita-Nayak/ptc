@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Dr. C S Pradhan",
+    "designation": "CGM(HRD)",
+    "children": [
+      {
+        "name": "Er. D K Jena",
+        "designation": "DGM(EL)",
+        "children": [
+          {
+            "name": "Er. M Biswal",
+            
+            "designation": "AGM(EL)"
+          },
+          {
+            "name": "Er. S Das",
+            
+            "designation": "MGR(EL)",
+            "children": [
+              {
+                "name": "Mr. M Minz",
+                
+                "designation": "OA"
+              },
+              {
+                "name": "Sri J Maharana",
+                
+                "designation": "Technician(EL)"
+              }
+            ]
+          },
+          {
+            "name": "Er. S S Tripathy",
+            
+            "designation": "DM(EL)"
+          },
+          {
+            "name": "Er. N P Nath",
+            
+            "designation": "DM(EL)"
+          },
+          {
+            "name": "Er. B Mohapatra",
+            
+            "designation": "DM(EL)"
+          },
+          {
+            "name": "Er. M Nayak",
+            
+            "designation": "AM(IT)"
+          }
+        ]
+      }
+      
+    ]
+  }
+]

@@ -1,0 +1,39 @@
+
+.org-head-content img {
+    height: 20vh;
+    width: 10vw;
+}
+
+
+.org-head-content p {
+    font-size: 1.1rem;
+    line-height: 2rem;
+    font-style: italic;
+}
+
+.org-head-content p::after {
+    display: block;
+    content: "";
+    margin: .5rem 0;
+}
+
+
+.org-head-content p img {
+    margin: 0 1rem;
+    float: right;
+    /* display: inline-block; */
+}
+
+.org-head-content p span {
+    display: block;
+}
+
+.org-head-content p span+span {
+    display: block;
+    content: "";
+    margin: .5rem 0;
+}
+
+
+
+

@@ -1,0 +1,126 @@
+/* start of footer */
+
+
+.footer {
+    bottom: 0;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+.footer-contents {
+    background-color: rgb(33, 35, 49);
+    display: flex;
+    justify-content: center;
+    color: rgba(var(--white), 1);
+    padding: 2rem;
+}
+
+.footer-content p:first-of-type{
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.footer-content p:nth-of-type(2) {
+    color: rgba(var(--fade), 1);
+    margin-bottom: 1rem;
+}
+
+.footer-content p, .footer-content span {
+    font-size: .85rem;
+}
+
+.footer-content .icon-info {
+    width: 25%;
+    display: flex;
+    align-items: baseline;
+    margin: auto;
+    gap: 1vw;
+}
+
+.footer-content span {
+    margin-top: .5rem;
+}
+
+.footer-content-1 {
+    width: 30vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content-1 img {
+    height: 4.5rem;
+    width: 3.5rem;
+}
+
+.footer-content-2,
+.footer-content-3,
+.footer-content-4 {
+    padding-left: 1rem;
+}
+
+
+.footer-content-2 {
+    width: 20vw;
+    border-left: 2px dashed rgba(var(--grey), 1);
+
+}
+
+.footer-content-2 p,
+.footer-content-3 p {
+    margin: .5rem 0;
+}
+
+.footer-content-2 p:not(:first-of-type):after,
+.footer-content-3 p:not(:first-of-type):after {
+
+    display: block;
+    content: "";
+    border-top: 1px dashed #565454;
+    border-radius: .5rem;
+    width: 100%;
+    margin: .5rem 0;
+
+}
+
+.footer-content-2 p:first-of-type,
+.footer-content-3 p:first-of-type {
+
+    font-weight: bold;
+}
+
+.footer-content-2 p:first-of-type::after,
+.footer-content-3 p:first-of-type::after {
+
+    display: block;
+    content: "";
+    border-top: .25rem solid rgba(var(--pink1),1);
+    border-radius: .5rem;
+    width: 6vw;
+    margin: .5rem 0;
+
+}
+
+.footer-content-3 {
+    width: 20vw;
+
+}
+
+.footer-content-4 {
+    width: 15vw;
+
+
+}
+.copyright-container {
+    background-color: rgb(43, 45, 59);
+    color: rgba(var(--fade), 1);
+    display: flex;
+    justify-content: space-around;
+    font-size: .85rem;
+    min-height: 6vh;
+    padding-top: 2vh;
+}
+
+/* End of footer */

@@ -1,0 +1,123 @@
+
+.gallery-container {
+
+    padding: 1rem;
+}
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  
+  }
+
+  .gallery-grid img {
+    
+        width: 100%;
+        border: .5rem solid  rgba(var(--white),1);
+        height: 100%;
+  }
+
+  
+  .gallery-grid div {
+    position: relative;
+    cursor: pointer;
+  }
+
+
+  .gallery-grid div:hover {
+    transform: scale(1.10);
+    transition: transform 1s;
+    position: relative;
+    z-index: 0;
+  }
+
+  .gallery-grid div::before, 
+  .gallery-grid div::after {
+    transition: .3s opacity ease;
+    opacity: 0;
+  }
+  .gallery-grid div::after {
+    content: '\02194';
+    font-size: 1rem;
+    position: absolute;
+    transform: translate3d(-50%, -50%, 0) rotate(-45deg);
+    color: rgba(var(--white), 1);
+    left: 50%;
+    top: 50%;
+    display: block;
+  }
+  .gallery-grid div::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 4px;
+    left: 0;
+    right: 0;
+    background: rgba(#222, 0.5);
+    display: block;
+  }
+
+  .gallery-grid div:hover::before,
+  .gallery-grid div:hover::after {
+    opacity: 1;
+    transition: .3s opacity ease;
+  }
+  
+  
+
+ 
+  
+  .gallery-modal {
+    position: fixed;
+    z-index: 3;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+  }
+  
+  .gallery-modal-overlay {
+    position: fixed;
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+  }
+  .gallery-modal-body a {
+    position: absolute;
+    display: inline;
+    color: rgba(var(--black),1);
+    text-decoration: none;
+    line-height: 36px;
+    font-size: 30px;
+    font-weight: lighter;
+    background:  rgba(var(--white),1);
+    border-radius: 5px;
+    height: 45px; width: 40px;
+    text-align: center;
+  }
+  .gallery-modal-body .modal-close {
+    right: 0; top: 0;
+    border-radius: 0 0 0 5px;
+  }
+  .gallery-modal-body .modal-next,
+  .gallery-modal-body .modal-prev {
+    right: 0; top: calc(50% - 25px);
+    border-radius: 5px 0 0 5px;
+    height: 65px;
+    line-height: 40px;
+    font-size: 60px;
+  }
+  .gallery-modal-body .modal-prev {
+    left: 0;
+    right: auto;
+    border-radius: 0 5px 5px 0;
+  }
+  .gallery-modal-body {
+    position: relative;
+  }
+
+  .gallery-modal-body img {
+    width: 55vw;
+    height: 70vh;
+  }

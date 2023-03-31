@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap');
+
+.navbar-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    color:  rgba(var(--dark-blue),1);
+    padding: 0 1rem;
+    position: sticky; 
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    background:  rgba(var(--white),1);
+}
+
+.navbar-container li {
+    padding-top: 1vh;
+    /* font-family: var(--text-btn); */
+    font-family: 'Lato', sans-serif;
+
+}
+
+.navbar-container li a {
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+}
+
+.navbar-container button {
+    background: transparent;
+    font-family: var(--text-btn);
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: .4rem .8rem;
+    /* border: 2px solid var(--black); */
+
+}
+
+.navbar-container svg {
+    font-size: 2rem;
+}
+
+
+.navbar-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar-logo img {
+    height: 3.5rem;
+    width: 3rem;
+}
+
+.navbar-logo div {
+    color: rgba(var(--pink1), 1);
+    font-size: 3.5rem;
+    font-family: 'Monoton', cursive;
+}
+
+.navbar-logo span {
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+    font-weight: 900;
+    font-family: 'Josefin Slab', serif;
+    /* font-family: 'Niconne', cursive; */
+}
+
+
+
+.navbar-container #signup {
+    background: rgba(var(--dark-blue), 1);
+    color: rgba(var(--white), 1);
+}
+
+.navbar-container #login {
+    border: 2px solid rgba(var(--dark-blue), 1);
+    color: rgba(var(--dark-blue), 1);
+
+
+}
+
+.navbar-container li:last-child,
+.navbar-container li:first-child {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.navbar-container li:first-child {
+    gap: 2rem;
+}
+
+.navbar-container li:nth-child(2) {
+    flex: 0 1 50%;
+    display: flex;
+    justify-content:space-evenly;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+

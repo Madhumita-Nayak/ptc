@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300&display=swap');
+
+
+:root {
+  /* font families */
+  --text-btn: 'Heebo', sans-serif;
+  /* --primary-font:'Titillium Web', sans-serif; */
+  --primary-font: 'Roboto Slab', serif;
+  --heading-font: 'Poppins', sans-serif;
+
+
+  /* colors */
+  --black: 0, 0, 0;
+  --white: 255, 255, 255;
+  --fade: 187, 187, 187;
+  --grey: 128, 128, 128;
+  --dark-grey: 67, 65, 65;
+
+  /* --light-blue:rgb(56, 103, 191); */
+  --light-blue: 56, 103, 191;
+  --dark-blue: 10, 46, 115;
+  --red: 255, 0, 0;
+  --red1:255, 91, 92;
+  --pink1: 219,48,91;
+  --pink: 241, 227, 227;
+  --yellow: 253, 172, 65;
+  --cyan:0, 207, 221;
+  --green: 57, 218, 138;
+  --orange: 255, 138, 113;
+}

@@ -1,0 +1,29 @@
+
+
+.team {
+    color: rgba(var(--dark-blue), 1);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.team h1 {
+    color: rgba(var(--dark-blue), 1);
+}
+
+.team h1::after {
+    font-weight: bold;
+    display: block;
+    content: "";
+    border-top: .25rem solid rgba(var(--pink1), 1);
+    border-radius: .5rem;
+    width: 7%;
+    margin: .5rem auto;
+}
+
+.team-content {
+    /* width: 80%; */
+    margin: 1vh auto 5vh;
+
+}
